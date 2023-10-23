@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario_objetos.css">
+</head>
+<body>
+
+    <div class="formulario_personajes">
+
+        <h1>puedes crear personajes</h1>
+        
+        <div class="formulario" id="formulario">
+            <form name="form" action="">
+
+                <input type="text" id="per_nombre" placeholder="ingresa el nombre de tu personaje" >
+                <br>
+                <input type="text" id="per_estatura" placeholder="ingresa la estaura">
+                <br>
+                <input type="text" id="per_edad" placeholder="ingresa la edad"><br>
+                <input type="button" id="boton_crear_personaje" value="crear">
+            </form>
+            
+            
+        </div>
+        
+    </div >
+    <div class="botones">
+        <h2>tambien puedes:</h2>
+        <a href="formulario_habilidades.html" target="_blank">
+            <button id="boton habilidades" >crear habilidades </button>
+        </a>
+ 
+        <a href="formulario_enemigos.html" target="_blank">
+         <button id="boton enemigos" > crear enemigos</button>
+        </a>
+           
+    </div>
+
+    <div class="contenedor_resultado">
+        <div class="resultado1" id="resultado1">++</div>
+        <div class="resultado2" id="resultado2">--</div>
+        <div class="resultado3" id="resultado3">==</div>
+    </div>
+           
+    
+    <script src="formulario_personajes.js"></script>
+    <!--   
+            <script src="formulariototal.js"></script>
+-->
+
+
+       <!-- // un intento con modulo no funciono
+           <script type="module" src="formulario_personajes.js"></script>
+        -->
+            
+            
+  
+</body>
+</html>

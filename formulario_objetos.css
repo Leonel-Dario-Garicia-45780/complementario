@@ -1,0 +1,37 @@
+/* estilo para los personajes */
+
+
+/* estilo para todos los archivos */
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+/*
+body{
+    display: flex;
+}
+*/
+.formulario{
+    background-color: beige;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor_resultado{
+    display: flex;
+}
+
+.resultado1{
+    margin-left: 50px;
+}
+.resultado2{
+    margin-left: 50px;
+}
+.resultado3{
+    margin-left: 50px;
+}
